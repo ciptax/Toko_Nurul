@@ -3,6 +3,14 @@ body {
     padding-top: 70px;
 }
 
+.text-danger {
+    color: red;
+}
+
+.d-none {
+    display: none;
+}
+
 #cartList {
     position: absolute;
     top: 50px;
@@ -15,25 +23,6 @@ body {
     z-index: 1000;
     display: none;
     /* Tampilkan ini hanya saat tombol keranjang di klik */
-}
-
-
-/* contact form  styles */
-
-.contact-form {
-    background-color: #ffffff;
-    /* Warna latar belakang form */
-    border-radius: 8px;
-    /* Sudut membulat */
-    padding: 30px;
-    /* Padding di dalam form */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Bayangan */
-}
-
-.form-label {
-    font-weight: bold;
-    /* Membuat label lebih tebal */
 }
 
 button.btn-primary {
@@ -245,8 +234,6 @@ button.btn-primary {
     /* Jarak dari atas, disesuaikan dengan tinggi navbar */
     z-index: 1020;
     /* Pastikan tetap di atas konten lain, lebih rendah dari navbar */
-    background-color: #fafafa;
-    /* Warna latar belakang untuk mencegah konten di belakang terlihat */
     padding: 10px;
     /* Tambahan padding jika diperlukan */
     box-shadow: 0 1px #f57224;
